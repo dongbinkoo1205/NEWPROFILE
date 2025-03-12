@@ -47,3 +47,8 @@
 .footer-icons img:hover {
     opacity: 0.6;
 }
+@media (max-width: 700px) {
+    .footer {
+        display: none;
+    }
+}
