@@ -20,7 +20,7 @@ export const PORTDATA = [
         name: 'InterviewAi',
         shortDescription: 'OpenAi를 활용한 모의면접 & 로그인',
         longDescription:
-            '면접 준비를 위한 AI 기반 인터뷰 시뮬레이션 플랫폼입니다. 사용자는 원하는 직무를 선택한 후, 제공된 면접 질문에 답변하면 OpenAI가 답변을 분석하고 평가 점수를 시각적으로 제공하며, 최신 직무 관련 뉴스도 함께 제공합니다.',
+            '면접 준비를 위한 AI 기반 인터뷰 시뮬레이션 서비스입니다. 사용자는 원하는 직무를 선택한 후, 제공된 면접 질문에 답변하면 OpenAI가 답변을 분석하고 평가 점수를 시각적으로 제공하며, 최신 직무 관련 뉴스도 함께 제공합니다.',
         client: '포트폴리오',
         img: '/assets/logo/interview_logo.webp',
         sizeClass: 'md-img',
