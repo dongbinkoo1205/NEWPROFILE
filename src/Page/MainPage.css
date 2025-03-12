@@ -1,0 +1,29 @@
+.main {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.main::before {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background: #ccc;
+    content: '';
+}
+
+.container {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #ccc;
+}
+@media (max-width: 1410px) {
+    .main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,97 @@
+.contact-container {
+    width: 100%;
+    height: auto !important;
+    border: none;
+    padding: 3rem 5rem;
+    border-top: 1px solid #ccc !important;
+}
+
+.contact-container > p {
+    font-size: 1.4rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.contact-container > p a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-container > p a:hover {
+    text-decoration: underline;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: #f1f1f1;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: fit-content;
+    margin: 1rem 0;
+    transition: background 0.2s ease-in-out;
+}
+.email-box img {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.email-box:hover {
+    background: #e0e0e0;
+}
+
+.copied {
+    font-size: 14px;
+    color: green;
+    margin-left: 5px;
+}
+
+.availability {
+    color: #27ae60;
+    font-size: 14px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background: #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    animation: dot infinite 1.5s linear;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #333;
+}
+@keyframes dot {
+    from {
+        background: #27ae5f34;
+    }
+    to {
+        background: #27ae60;
+    }
+}
+@media (max-width: 700px) {
+    .contact-container > p {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+    .email-box {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+    .email-box img {
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+}

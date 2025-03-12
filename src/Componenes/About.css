@@ -1,0 +1,133 @@
+.About {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: calc(1400px - 25rem);
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+}
+
+.About .StickyCont {
+    height: 100%;
+}
+
+.About .StickyCont .close {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 4rem;
+    z-index: 5;
+}
+.About .StickyCont .close img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.About .StickyCont .close span {
+    font-size: 1.3rem;
+}
+
+.aboutWrap {
+    padding-top: 4rem;
+    height: 100%;
+}
+.aboutWrap > div {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+.aboutWrap > div > .name {
+    font-size: 10rem;
+    position: relative;
+    padding: 2rem 0rem;
+    margin: 5rem 5rem 0rem;
+}
+.aboutWrap > div > .name::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 10rem;
+    height: 3px;
+}
+.aboutWrap > div > .mainInfo {
+    font-size: 1.5rem;
+    padding: 0rem 5rem;
+    margin-bottom: 5rem;
+}
+.aboutWrap > div > .subInfo {
+    font-size: 1.4rem;
+    padding: 3rem 5rem;
+    border-top: 1px solid #ccc;
+    line-height: 1.9;
+}
+.aboutWrap > div > .subInfo > .skill {
+    margin-bottom: 1rem;
+}
+.aboutWrap > div > .subInfo > .skill > div {
+    font-size: 11px;
+    color: #9b9b9b;
+    margin-bottom: 0.5rem;
+}
+.aboutWrap > div > .subInfo:last-child {
+}
+@media (max-width: 1410px) {
+    .About {
+        width: inherit;
+    }
+}
+
+@media (max-width: 700px) {
+    .About {
+        width: 100vw;
+        left: 0;
+    }
+    .About .StickyCont .PortWrap {
+        margin-top: 6rem;
+    }
+    .About .StickyCont .close {
+        height: 6rem;
+    }
+    .About .StickyCont .close img {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .About .StickyCont .close span {
+        font-size: 2rem;
+    }
+    .About .StickyCont .PortWrap .PortInfo .infowrap .link {
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
+    .About .StickyCont .PortWrap .PortInfo .infowrap .link img {
+        width: 3rem;
+    }
+    .aboutWrap > div > .mainInfo {
+        font-size: 1.8rem;
+    }
+    .aboutWrap > div > .subInfo > .skill > div {
+        font-size: 13px;
+    }
+    .aboutWrap > div > .subInfo {
+        font-size: 2rem;
+    }
+}
