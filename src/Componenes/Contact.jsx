@@ -26,7 +26,7 @@ function Contact({ detailLeft, onClose }) {
                 >
                     <button onClick={onClose} className="close Pretendard-r">
                         <img src={left} alt="레프트버튼" />
-                        <span>About</span>
+                        <span>Contact</span>
                     </button>
                     <div className="aboutWrap">
                         {ContactDesc.map((item, index) => (
