@@ -3,7 +3,7 @@ export const PORTDATA = [
         name: 'colorcolor',
         shortDescription: '색상 조합 추천 서비스',
         longDescription:
-            '다양한 폰트 데이터들 중 자신이 원하는 폰트를 선택하여 UI 템플릿에 자신이 선택한 폰트의 자세한 느낌과 특징을 확인할 수 있습니다.',
+            'colorcolor는 트렌디한 색상 팔레트를 좋아요로 저장·공유하며 색상 영감을 얻을 수 있는 컬렉션 플랫폼입니다.',
         client: '포트폴리오',
         img: '/assets/logo/colorcolor_logo.webp',
         sizeClass: 'md-img',
