@@ -1,5 +1,22 @@
 export const PORTDATA = [
     {
+        name: 'ALLWEB',
+        shortDescription: 'React & 유려한 스크롤 효과',
+        longDescription:
+            '웹사이트 매거진을 주제로 React와 Three.js를 활용하여 유려한 스크롤 효과와 함께 시각적으로 몰입감 있는 인터랙션을 구현하는 데 초점을 맞췄습니다. 임시 데이터를 생성하고 이를 가공하여 동적인 콘텐츠를 효과적으로 배치하는 구조를 설계했습니다.',
+        client: 'React 포트폴리오',
+        img: '/assets/logo/allweb_logo.webp',
+        sizeClass: 'sm-img',
+        year: '2024년 12월',
+        category: '웹 디자인・개발',
+        technologies: ['React'],
+        additionalInfo: ['다양한 스크롤 효과'],
+        color: '#8d00ff',
+        url: 'https://all-web-two.vercel.app/',
+        webVd: 'https://github.com/dongbinkoo/PORTWEBP/blob/main/allweb_vd.webm?raw=true',
+        how: '개발을 시작할 때 GDWEB을 보며 웹디자인을 즐겁게 고민했습니다. 감각적인 사이트들을 보면서 디자인의 가능성을 탐색했고, 어떻게 하면 더 역동적이고 흥미로운 웹사이트를 만들 수 있을지 고민했습니다. GDWEB이 가진 정적인 느낌을 보완하고 싶어, THREE.JS를 활용해 3D 요소를 추가하며 더욱 생동감 있는 웹사이트를 만들어갔습니다. 단순한 UI를 넘어, 보는 사람에게 몰입감을 줄 수 있는 인터랙티브한 경험을 구현하는 과정이 무척 즐거웠습니다.',
+    },
+    {
         name: 'colorcolor',
         shortDescription: '색상 조합 추천 서비스',
         longDescription:
@@ -67,23 +84,7 @@ export const PORTDATA = [
         webVd: 'https://github.com/dongbinkoo/PORTWEBP/blob/main/collab_vd.webm?raw=true',
         how: '좋아하는 유튜버의 실시간 라이브 방송을 보면서, 실시간으로 소통할 수 있는 웹 애플리케이션을 만들고 싶다는 생각이 들었습니다. 단순히 영상을 시청하는 것을 넘어, 시청자들이 함께 참여하고 소통하는 경험을 웹에서 구현해보고 싶었습니다. 단순한 아이디어가 기능으로 구현되는 과정이 신기했고,  더 다양한 방식으로 아이디어를 발전시켜보고 싶다는 생각이 들었습니다.',
     },
-    {
-        name: 'ALLWEB',
-        shortDescription: 'React & 유려한 스크롤 효과',
-        longDescription:
-            '웹사이트 매거진을 주제로 React와 Three.js를 활용하여 유려한 스크롤 효과와 함께 시각적으로 몰입감 있는 인터랙션을 구현하는 데 초점을 맞췄습니다. 임시 데이터를 생성하고 이를 가공하여 동적인 콘텐츠를 효과적으로 배치하는 구조를 설계했습니다.',
-        client: 'React 포트폴리오',
-        img: '/assets/logo/allweb_logo.webp',
-        sizeClass: 'sm-img',
-        year: '2024년 12월',
-        category: '웹 디자인・개발',
-        technologies: ['React'],
-        additionalInfo: ['다양한 스크롤 효과'],
-        color: '#8d00ff',
-        url: 'https://all-web-two.vercel.app/',
-        webVd: 'https://github.com/dongbinkoo/PORTWEBP/blob/main/allweb_vd.webm?raw=true',
-        how: '개발을 시작할 때 GDWEB을 보며 웹디자인을 즐겁게 고민했습니다. 감각적인 사이트들을 보면서 디자인의 가능성을 탐색했고, 어떻게 하면 더 역동적이고 흥미로운 웹사이트를 만들 수 있을지 고민했습니다. GDWEB이 가진 정적인 느낌을 보완하고 싶어, THREE.JS를 활용해 3D 요소를 추가하며 더욱 생동감 있는 웹사이트를 만들어갔습니다. 단순한 UI를 넘어, 보는 사람에게 몰입감을 줄 수 있는 인터랙티브한 경험을 구현하는 과정이 무척 즐거웠습니다.',
-    },
+
     {
         name: 'WithUs',
         shortDescription: '공공데이터 활용 & Google Maps',
