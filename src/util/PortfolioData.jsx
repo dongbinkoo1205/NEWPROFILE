@@ -28,7 +28,7 @@ export const PORTDATA = [
         category: '웹 디자인・개발',
         technologies: ['React', 'Express', 'MySQL'],
         additionalInfo: ['Vercel', 'Render', 'Railway'],
-        color: '#ff9200',
+        color: '#0068ff',
         url: 'https://colorcolor.vercel.app/',
         webVd: 'https://github.com/dongbinkoo/PORTWEBP/blob/main/color_vd.webm?raw=true',
         how: 'colorcolor는 전 세계 사람들이 사랑하는 트렌디한 색상 조합 컬렉션입니다. 모든 팔레트는 최신 디자인 트렌드를 반영한 감각적인 조합으로 구성되어 있으며, 사용자는 마음에 드는 팔레트에 좋아요를 눌러 쉽게 저장하고 공유할 수 있습니다. colorcolor는 색상의 아름다움을 함께 즐기고, 누구나 쉽게 색상 영감을 받을 수 있는 공간을 지향합니다.',
